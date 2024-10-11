@@ -1,3 +1,7 @@
+#!/usr/bin/env python3
+'''
+element of the list
+'''
 from typing import List, TypeVar, Optional
 
 T = TypeVar('T')

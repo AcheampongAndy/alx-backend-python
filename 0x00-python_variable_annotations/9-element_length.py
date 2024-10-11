@@ -1,3 +1,8 @@
+#!/usr/bin/env python3
+'''
+module that annotates belows function parameters
+and returns values with approriate types
+'''
 from typing import List, Tuple, Any
 
 def element_length(lst: List[Any]) -> List[Tuple[Any, int]]:

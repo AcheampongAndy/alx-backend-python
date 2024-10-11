@@ -1,3 +1,7 @@
+#!/usr/bin/env python3
+'''
+Zooms in on the tuple by repeating
+'''
 from typing import List, Tuple, Union
 
 def zoom_array(lst: Tuple[int, ...], factor: int = 2) -> List[int]:
