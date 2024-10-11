@@ -1,12 +1,11 @@
 #!/usr/bin/env python3
-'''
-element of the list
-'''
-from typing import List, TypeVar, Optional
+"""
+Module that annotates below function parameters
+and returns values with appropriate types.
+"""
+from typing import Sequence, Optional, Iterable
 
-T = TypeVar('T')
-
-def safe_first_element(lst: List[T]) -> Optional[T]:
+def safe_first_element(lst: Iterable[Sequence]) -> Optional[Sequence]:
     """
     Returns the first element of the list if it exists, otherwise returns None.
 
