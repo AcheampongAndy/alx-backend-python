@@ -3,9 +3,9 @@
 Module that annotates below function parameters
 and returns values with appropriate types.
 """
-from typing import Sequence, Optional, Iterable
+from typing import Sequence, Any, Union
 
-def safe_first_element(lst: Iterable[Sequence]) -> Optional[Sequence]:
+def safe_first_element(lst: Sequence[Any]) -> Union[Any, None]:
     """
     Returns the first element of the list if it exists, otherwise returns None.
 
